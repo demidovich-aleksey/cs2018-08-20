@@ -1,4 +1,4 @@
-package by.it._tasks_.lesson02;
+package by.it.demidovich.lesson02;
 /*
 напишите программу которая выводит на экран
 Hello world!
@@ -9,7 +9,7 @@ Hello world!
 */
 
 class TaskA1 {
-    public static void main(String[] args){
-
+    public static void main(String[] args) {
+        System.out.println("Hello world!");
     }
 }
