@@ -37,9 +37,14 @@ import java.util.Scanner;
 
 class TaskA1 {
     public static void main(String[] args){
-        Scanner calc=new Scanner(System.in);
-        int a=calc.nextInt();
-        int b=calc.nextInt();
-        
+        Scanner scan=new Scanner(System.in);
+        int a=scan.nextInt();
+        int b=scan.nextInt();
+        int sum=a+b;
+        int sub=a-b;
+        int mul=a*b;
+        int div=a/b;
+        int mod=a%b;
     }
+
 }
