@@ -14,10 +14,9 @@ import java.util.Scanner;
 
 class TaskC1 {
     public static void main(String[] args){
-        Scanner scan01=new Scanner(System.in);
-        Scanner scan02=new Scanner(System.in);
-        int a=scan01.nextInt();
-        int b=scan02.nextInt();
+        Scanner scan=new Scanner(System.in);
+        int a=scan.nextInt();
+        int b=scan.nextInt();
         int sum=a + b;
         System.out.println("Sum = " + sum);
     }
