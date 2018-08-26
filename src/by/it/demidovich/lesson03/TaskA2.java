@@ -27,5 +27,7 @@ class TaskA2 {
         String c="Хоть сказки впору им слагать:";
         String d="Нужна хорошая зарплата!";
         String e="Работу, чур, не предлагать.";
+        System.out.println(a);
+        System.out.println(b+"\n"+c+"\n"+d+"\n"+e);
     }
 }
